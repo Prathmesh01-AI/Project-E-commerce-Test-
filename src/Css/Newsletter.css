@@ -1,0 +1,39 @@
+.newsletter {
+  text-align: center;
+  background: white;
+}
+
+.newsletter p {
+  margin-bottom: 25px;
+}
+
+.newsletter-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.newsletter-box input {
+  width: 350px;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.newsletter-box button {
+  padding: 15px 25px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+@media(max-width:768px){
+  .newsletter-box{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .newsletter-box input{
+    width:100%;
+  }
+}
